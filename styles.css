@@ -11,6 +11,10 @@ h1 {
   color: #b22222;
 }
 
+p {
+  font-size: large;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -94,6 +98,8 @@ main {
 .pic-container img {
   width: 20%;
   border-radius: 2px;
+  margin: 10px;
+  margin-right: 0;
 }
 
 .timeline-header {
@@ -196,7 +202,6 @@ main {
     width: 70%;
     margin-right: 20%;
   }
-
 
   .container.right {
     left: 0;
