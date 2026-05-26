@@ -218,6 +218,7 @@ main {
 }
 
 footer {
+  font-size: small;
   text-align: center;
   background-color: #fde3ab;
   border-top: 2px solid black;
@@ -225,6 +226,10 @@ footer {
   position: fixed;
   width: 100%;
   z-index: 98;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
